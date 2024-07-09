@@ -1,0 +1,32 @@
+header {
+  background-color: #efa606;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateZ(0);
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+header h2 {
+  color: white;
+  font-weight: 800;
+  font-size: 1.6rem;
+}
+
+header button {
+  background-color: transparent;
+  border: none;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+}
+
+button img {
+  height: 100%;
+}

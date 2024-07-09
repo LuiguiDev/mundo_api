@@ -1,0 +1,33 @@
+.products_header {
+  background: linear-gradient(90deg, #efa606, #f4c04f);
+  padding: 20px;
+  
+  color: white;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.ProductDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductContentNPrice {
+  display: flex;
+  flex-direction: column;
+}
+
+.product_img {
+  width: 100%;
+  border-radius: 20px;
+}

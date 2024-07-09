@@ -1,0 +1,19 @@
+footer {
+  padding: 30px;
+  background: linear-gradient(45deg, #efa606, #f4c04f);
+  color: white;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-end;
+}
+
+.contact, .social_media {
+  width: fit-content;
+  margin: auto;
+}
+
+.social_media_icons, .contact_elements{
+  display: flex;
+  flex-direction: column;
+}

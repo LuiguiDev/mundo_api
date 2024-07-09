@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Nunito', sans-serif;
+  width: 100vw;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.location {
+  width: 90%;
+  margin: auto;
+}
+.location_img {
+  display: flex;
+  flex-direction: column;
+}
+
+.l_img {
+  width: 100%;
+}

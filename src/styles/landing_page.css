@@ -1,0 +1,82 @@
+/* .landing_page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+
+  margin-top: 80px;
+}
+ */
+h1 {
+  width: 220px;
+  font-weight: 900;
+  color: #1c1b1b;
+  text-align: center;
+}
+
+.landing_page {
+  margin-top: 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  height: 80vh;
+  background: #efa606;
+  background: linear-gradient(180deg, #efa606 0%, #f4c04f 10%, rgba(255,255,255,1) 25%); 
+
+  position: relative;
+
+  gap: 20px;
+}
+
+.img_container h1 {
+  padding: 20px;
+  color: white;
+}
+
+.landing_image {
+  width: 100%;
+  height: calc(100vw * 1.26);
+
+  border-radius: 0 0 20px 20px;
+  filter: contrast(.85) saturate(.9);
+}
+
+.discover {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+}
+
+.discover button {
+  border: none;
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.glass{
+  padding: 20px;
+  color: white;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.198);
+}
