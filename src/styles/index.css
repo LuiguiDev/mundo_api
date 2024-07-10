@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
   font-family: 'Nunito', sans-serif;
   width: 100vw;
@@ -11,7 +15,11 @@ html, body {
 #root {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
 .location {
@@ -25,4 +33,12 @@ html, body {
 
 .l_img {
   width: 100%;
+}
+
+section {
+  padding-top: 80px !important;
+}
+
+footer {
+  margin-top: 60px;
 }

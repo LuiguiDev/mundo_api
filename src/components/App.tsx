@@ -32,22 +32,22 @@ const PRODUCTS = [
     img: '',
     name: 'Miel cremosa',
     content: 50,
-    price: getPrice(120, 'blanca')
+    price: 60
   }
 ]
 
-function getPrice (content: number, productName: string) {
-  const total = content * PricesPerGram[productName]
+/* function getPrice (content: number, productName: string) {
+  const total: number = content * PricesPerGram[productName]
   return Math.round(total)
 }
-
+ */
 function App() {
   return (
     <>
       <Header />
       <LandingPage />
       <Discover />
-      <div className="products">
+      <section className="products">
         <h2 className="products_header">NUESTROS PRODUCTOS</h2>
         <li className='products_list'>
         {
@@ -57,13 +57,13 @@ function App() {
                   img={element.img}
                   name={element.name}
                   content={element.content}
-                  price={element.price}
+                  price={70}
                 />
               )
             })
         }
         </li>
-      </div>
+      </section>
       <section className="puntos_de_venta">
         <div className="products_header">
           <h2>PUNTOS DE VENTA</h2>

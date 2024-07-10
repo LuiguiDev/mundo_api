@@ -19,7 +19,7 @@ const DonutChart: React.FC = () => {
       .attr('transform', `translate(${width / 2},${height / 2})`);
 
     const color = d3.scaleOrdinal<string, string>()
-      .domain([0, 1])
+      .domain(['0', '1'])
       .range(['black', '#efa606']);
 
     const pie = d3.pie<number>().sort(null);
@@ -28,12 +28,12 @@ const DonutChart: React.FC = () => {
       .innerRadius(radius * 0.5)
       .outerRadius(radius * 0.8);
 
-    const arcs = svg.selectAll('arc')
+    svg.selectAll('arc')
       .data(pie(data))
       .enter()
       .append('path')
       .attr('d', arc)
-      .attr('fill', (d, i) => color(i.toString()))
+      .attr('fill', (_d, i) => color(i.toString()))
       .attr('stroke', 'black')
       .style('stroke-width', '2px');
 

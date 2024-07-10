@@ -1,7 +1,7 @@
 import { ProductType } from "../types"
 import '../styles/product.css'
 
-function Product ({img, name, content, price}: ProductType) {
+function Product ({name, content, price}: ProductType) {
   return (
     <div className="ProductContainer">
       <img className='product_img' src='./src/images/honey_jar.jpg' />
