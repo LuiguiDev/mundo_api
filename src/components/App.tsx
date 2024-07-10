@@ -76,7 +76,7 @@ function App() {
           <div className="location_img">
             <img 
               className="l_img"
-              src="./src/images/location.png" 
+              src="https://i.ibb.co/NnhG5mW/location.png" 
             />
             <a 
               href="https://www.google.com/maps/place/Cencalli+%22Casa+del+ma%C3%ADz+y+la+cultura+alimentaria%22/@19.4167698,-99.1931673,17.62z/data=!4m6!3m5!1s0x85d201555b509f89:0x847e3b288e6d2a64!8m2!3d19.4171637!4d-99.1920113!16s%2Fg%2F11rhp8sx7f?entry=ttu" 

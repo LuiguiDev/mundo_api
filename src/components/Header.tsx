@@ -5,7 +5,7 @@ const Header = () => {
     <header id='main-header'>
       <h2>Mundo Api</h2>
       <button>
-        <img src="./src/images/menu hexagonal blanco.png" />
+        <img src="https://i.ibb.co/2hh5Xt4/menu-hexagonal-blanco.png" />
       </button>
     </header>
   )

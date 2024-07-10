@@ -4,7 +4,7 @@ import '../styles/product.css'
 function Product ({name, content, price}: ProductType) {
   return (
     <div className="ProductContainer">
-      <img className='product_img' src='./src/images/honey_jar.jpg' />
+      <img className='product_img' src='https://i.ibb.co/HrPLjJs/honey-jar.jpg' />
       <div className="ProductDetails">
         <h3 className="ProductName">{name}</h3>
         <div className="ProductContentNPrice">
